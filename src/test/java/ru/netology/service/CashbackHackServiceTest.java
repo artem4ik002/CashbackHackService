@@ -12,7 +12,7 @@ public class CashbackHackServiceTest {
     }
 
     @org.junit.Test
-    public void testBoundaryLess1000() {
+    public void testBoundaryBelow1000() {
         CashbackHackService service = new CashbackHackService();
         int amount = 999;
         int actual = service.remain(amount);
